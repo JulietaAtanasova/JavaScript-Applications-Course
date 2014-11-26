@@ -1,0 +1,15 @@
+body {
+	background-color: rgb(255, 255, 128);
+}
+
+.menu {
+	display: inline-block;
+}
+
+.input, #paintButton {
+	margin: 10px;
+}
+
+#animals {
+	display: inline-block;
+}

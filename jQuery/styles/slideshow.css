@@ -1,0 +1,30 @@
+input {
+    float: left;
+    margin: 5px;
+}
+label {
+    float: left;
+}
+.slides {
+    display: inline-block;
+}
+#wrapper {
+    width: 960px;
+    height: 300px;
+}
+#backButton, #nextButton {
+    margin: 130px 5px 0px 5px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border: solid 2 black;
+    border-radius: 60px;
+    background-color: #FFFFFF;
+}
+#nextButton {
+    float: right;
+}
+#logInButton {
+    border: none;
+    float: left;
+}
