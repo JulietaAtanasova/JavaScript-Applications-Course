@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Books</title>
+    <link rel="stylesheet" href="books.css" />
+</head>
+
+<body>
+    <header>Books List</header>
+
+    <main>
+    
+        <div id="addBook">
+            <input id="add-book-author" type="text" placeholder="Author">
+            <br>
+            <br>
+            <input id="add-book-title" type="text" placeholder="Book Title">
+            <br>
+            <br>
+            <input id="add-book-isbn" type="text" placeholder="Book ISBN">
+            <br>
+            <button id="add-book-btn">Add Book</button>
+        </div>
+
+        <ul id="books">
+        </ul>
+
+        <div id="editBook">
+            <input id="edit-book-author" type="text">
+            <br>
+            <br>
+            <input id="edit-book-title" type="text">
+            <br>
+            <br>
+            <input id="edit-book-isbn" type="text">
+            <br>
+            <button id="change-book-btn">Edit Book</button>
+            <div id="book-id"></div>
+        </div>
+
+    </main>
+
+    <footer>&copy; JS Apps Homework &ndash; No Rights Reserved</footer>
+
+    <script src="scripts/libs/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="scripts/ajax-requester.js"></script>
+    <script type="text/javascript" src="scripts/data-persister.js"></script>
+    <script type="text/javascript" src="scripts/controller.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+
+</html>
